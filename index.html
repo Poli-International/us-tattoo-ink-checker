@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+  <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>US Tattoo Ink Checker | MoCRA & Safety Screening | Poli International</title>
+    <meta name="description" content="Professional US tattoo ink safety screening tool. Check pigments, CI numbers, and CAS numbers against MoCRA requirements, FDA color additive status, and California Proposition 65." />
+    <meta property="og:title" content="US Tattoo Ink Checker | MoCRA & Safety Screening | Poli International" />
+    <meta property="og:description" content="Professional US tattoo ink safety screening tool. Check pigments, CI numbers, and CAS numbers against MoCRA requirements, FDA color additive status, and California Proposition 65." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('poli-theme');
+          if (saved === 'light') {
+            document.documentElement.setAttribute('data-theme', 'light');
+          } else if (saved === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {}
+        if (window.self !== window.top) {
+          window.addEventListener('message', function(e) {
+            if (e.data && e.data.type === 'poli-theme') {
+              var theme = e.data.light ? 'light' : 'dark';
+              document.documentElement.setAttribute('data-theme', theme);
+              try { localStorage.setItem('poli-theme', theme); } catch(err) {}
+            }
+          });
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/tools/us-tattoo-ink-checker/assets/index-Bzh5-Tp3.js"></script>
+    <link rel="modulepreload" crossorigin href="/tools/us-tattoo-ink-checker/assets/rolldown-runtime-CbXtAM7H.js">
+    <link rel="modulepreload" crossorigin href="/tools/us-tattoo-ink-checker/assets/vendor-react-CyzwXRd0.js">
+    <link rel="stylesheet" crossorigin href="/tools/us-tattoo-ink-checker/assets/index-BS5laHRC.css">
+    <script src="/js/input-guards.js"></script>
+  <link rel="stylesheet" href="/tools/shared/print.css" media="print">
+  <link rel="stylesheet" href="/tools/shared/a11y.css">
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
