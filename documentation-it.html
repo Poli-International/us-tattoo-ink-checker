@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><meta name="robots" content="noindex,nofollow">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Tattoo Ink Regulation Checker: guida utente Documentazione | Poli International</title>
+    <meta name="description" content="Lo strumento US Tattoo Ink Regulation Checker analizza le formulazioni degli inchiostri per tatuaggi, le etichette dei flaconi e gli elenchi dei componenti riportati nelle schede di sicurezza (SDS) rispetto ai requisiti di legge federali del MoCRA e ai valori soglia di avvertenza della Proposition 65 della California, a supporto di tatuatori, piercer e titolari di studi.">
+    <link rel="canonical" href="https://poliinternational.com/us-tattoo-ink-checker/">
+    <style>
+        body { background: #0f0f0f; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; }
+        body.in-iframe .doc-hero h1 { display: none; }
+        * { box-sizing: border-box; }
+        .entry-content { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+        .doc-hero { background: linear-gradient(135deg, #3B82F6, #8B5CF6); padding: 3rem 2rem; text-align: center; border-radius: 0.75rem; margin-bottom: 2rem; }
+        .doc-hero h1 { font-size: 2.2rem; margin: 0 0 1rem; font-weight: 700; }
+        .doc-hero p { font-size: 1.15rem; color: #E0E7FF; margin: 0; }
+        .doc-hero .v2 { display: inline-block; margin-bottom: 1rem; padding: 0.2rem 0.75rem; border-radius: 999px; background: #10B981; color: #04241a; font-weight: 800; font-size: 0.8rem; letter-spacing: 0.08em; }
+        .doc-section { margin: 2rem 0; padding: 2rem; background: #1a1a1a; border-radius: 0.75rem; border-left: 4px solid #3B82F6; }
+        .doc-section h2 { color: #60A5FA; font-size: 1.7rem; margin: 0 0 1.25rem; font-weight: 600; }
+        .doc-section h3 { color: #A78BFA; font-size: 1.3rem; margin: 1.75rem 0 0.75rem; font-weight: 600; }
+        .doc-section p, .doc-section li { color: #ccc; line-height: 1.75; font-size: 1.02rem; }
+        .doc-section ul, .doc-section ol { padding-left: 1.5rem; }
+        .doc-section li { margin: 0.4rem 0; }
+        .doc-section code { background: #2a2a2a; padding: 0.1rem 0.35rem; border-radius: 0.25rem; font-size: 0.92em; }
+        .doc-section a { color: #60A5FA; font-weight: 600; }
+        .highlight-box { background: linear-gradient(135deg, #1E3A8A, #4C1D95); padding: 1.25rem 1.5rem; border-radius: 0.5rem; margin: 1.5rem 0; border-left: 4px solid #10B981; }
+        .highlight-box p { color: #E0E7FF; margin: 0; }
+        table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+        th, td { padding: 0.75rem; text-align: left; border: 1px solid #333; vertical-align: top; }
+        th { background: #2a2a2a; color: #60A5FA; }
+        td { color: #ccc; }
+        .doc-langs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0 0 1.5rem; font-size: 0.9rem; }
+        .doc-langs a, .doc-langs span { padding: 0.3rem 0.7rem; border-radius: 999px; border: 1px solid #333; text-decoration: none; }
+        .doc-langs a { color: #60A5FA; }
+        .doc-langs span { background: #1E3A8A; color: #E0E7FF; border-color: #1E3A8A; font-weight: 700; }
+    </style>
+</head>
+<body>
+<script>if (window.self !== window.top) document.body.classList.add('in-iframe');</script>
+    <div class="entry-content">
+        <nav class="doc-langs" aria-label="Documentation language"><a lang="en" href="documentation.html">English</a><a lang="fr" href="documentation-fr.html">Francais</a><a lang="de" href="documentation-de.html">Deutsch</a><a lang="es" href="documentation-es.html">Espanol</a><span lang="it">Italiano</span><a lang="nl" href="documentation-nl.html">Nederlands</a><a lang="pt" href="documentation-pt.html">Portugues</a><a lang="th" href="documentation-th.html">ไทย</a></nav>
+        <div class="doc-hero">
+            <span class="v2">V2</span>
+            <h1>US Tattoo Ink Regulation Checker: guida utente</h1>
+            <p>Lo strumento US Tattoo Ink Regulation Checker analizza le formulazioni degli inchiostri per tatuaggi, le etichette dei flaconi e gli elenchi dei componenti riportati nelle schede di sicurezza (SDS) rispetto ai requisiti di legge federali del MoCRA e ai valori soglia di avvertenza della Proposition 65 della California, a supporto di tatuatori, piercer e titolari di studi.</p>
+        </div>
+        <div class="doc-section">
+        <h2>A cosa serve</h2>
+        <p>Questo strumento fornisce una verifica normativa eseguita interamente sul client nel browser per gli inchiostri da tatuaggio e i pigmenti cosmetici impiegati negli Stati Uniti:</p>
+        <ul>
+        <li>Quadro normativo federale MoCRA (Public Law 117-328), che disciplina la vigilanza post-commercializzazione sull'adulterazione dei prodotti, la registrazione degli stabilimenti produttivi, l'elenco delle formulazioni, la notifica degli eventi avversi e l'autorità di richiamo vincolante sotto la supervisione della FDA.</li>
+        <li>Proposition 65 della California (California Health &amp; Safety Code § 25249.5 e segg.), che impone avvisi preliminari prima di esporre le persone a sostanze chimiche inserite nell'elenco ufficiale in quanto cancerogene o tossiche per la riproduzione.</li>
+        </ul>
+        <p>Gli utenti incollano dichiarazioni di ingredienti, denominazioni chimiche, codici Color Index (CI) o numeri CAS per verificarne la corrispondenza con una selezione di 15 sostanze e classi ad alta priorità.</p>
+        </div>
+        <div class="doc-section">
+        <h2>A chi è rivolto</h2>
+        <ul>
+        <li>Tatuatori che intendono verificare la sicurezza delle sostanze e i potenziali allergeni da contatto prima di eseguire un tatuaggio.</li>
+        <li>Titolari di studi che devono tenere aggiornati i registri di conformità tecnica e rispondere con chiarezza ai quesiti dei clienti.</li>
+        <li>Dermopigmentisti e operatori di trucco permanente (PMU) che controllano i veicolanti e i pigmenti secondo gli standard federali.</li>
+        <li>Artisti ospiti che operano tra diversi Stati e devono verificare il rispetto dei parametri federali e californiani.</li>
+        </ul>
+        </div>
+        <div class="doc-section">
+        <h2>Come si usa</h2>
+        <h3>Modificare la lingua e il tema grafico</h3>
+        <ol>
+        <li>Fai clic su <code>Lingua interfaccia</code> nella barra di navigazione in alto.</li>
+        <li>Seleziona la tua lingua dal menu a discesa.</li>
+        <li>Fai clic su <code>Passa al tema scuro</code> oppure su <code>Passa al tema chiaro</code> per adattare la luminosità dello schermo all'ambiente di lavoro.</li>
+        </ol>
+        <h3>Analizzare gli elenchi degli ingredienti e le schede di sicurezza</h3>
+        <ol>
+        <li>Individua il riquadro <code>Incolla la Sezione 3 della scheda di sicurezza (SDS), l'etichetta del flacone o il testo degli ingredienti</code>.</li>
+        <li>Incolla il testo nell'area contrassegnata da <code>Incolla ingredienti, nomi chimici o numeri CAS (es. CAS 1333-86-4, CI 77891, Biossido di titanio, Piombo, Nichel, Toluene)...</code>.</li>
+        <li>Controlla il contatore <code>{count} caratteri inseriti</code> per accertarti dell'avvenuto inserimento.</li>
+        <li>Fai clic su <code>Analizza testo ingredienti</code> per avviare il confronto delle sostanze con la banca dati.</li>
+        <li>Fai clic su <code>Cancella testo</code> in qualsiasi momento per ripulire il campo di digitazione.</li>
+        </ol>
+        <h3>Esaminare i risultati dell'analisi e le metriche di sintesi</h3>
+        <ol>
+        <li>Consulta il riquadro <code>Riepilogo risultati screening</code> per visualizzare i totali complessivi.</li>
+        <li>Verifica l'estensione dell'archivio esaminato: <code>Banca dati di riferimento: {count} sostanze</code>.</li>
+        <li>Controlla il totale delle corrispondenze riscontrate: <code>Identificate nel testo inviato: {count} su {total} ({percent}%)</code>.</li>
+        <li>Esamina i parametri suddivisi per competenza normativa: <code>Soggette al quadro normativo federale MoCRA: {count}</code> e <code>Iscritte nella Proposition 65 della California: {count}</code>.</li>
+        <li>Fai clic su <code>Visualizza dettagli MoCRA →</code> o su <code>Visualizza livelli Safe Harbor Prop 65 →</code> per passare direttamente alle relative schede di approfondimento.</li>
+        </ol>
+        <h3>Esplorare i requisiti federali MoCRA</h3>
+        <ol>
+        <li>Individua la sezione <code>Quadro federale MoCRA e posizione di non approvazione della FDA</code> con il richiamo normativo alla <code>Public Law 117-328 (Legge sulla modernizzazione della regolamentazione dei cosmetici del 2022)</code>.</li>
+        <li>Leggi il paragrafo <code>Posizione normativa ufficiale FDA sugli inchiostri per tatuaggi</code> relativo al regime di divieto di adulterazione post-vendita rispetto all'approvazione preventiva.</li>
+        <li>Esamina i pilastri normativi previsti dalla legge: <code>Registrazione degli stabilimenti (§ 607)</code>, <code>Elenco dei prodotti cosmetici (§ 607)</code>, <code>Segnalazione eventi avversi gravi entro 15 giorni (§ 605)</code>, <code>Autorità di richiamo obbligatorio (§ 611)</code> e <code>Requisiti di etichettatura (§ 609)</code>.</li>
+        <li>Controlla la tabella <code>Stato federale MoCRA per gli ingredienti individuati</code> per visualizzare lo stato di ciascun componente rilevato.</li>
+        </ol>
+        <h3>Verificare i livelli Safe Harbor della Proposition 65 della California</h3>
+        <ol>
+        <li>Raggiungi la sezione <code>Proposition 65 della California (Safe Drinking Water and Toxic Enforcement Act)</code> con il riferimento al <code>California Health &amp; Safety Code § 25249.5 e segg.</code>.</li>
+        <li>Leggi le disposizioni de <code>L'obbligo di avvertenza della Proposition 65</code> applicabili alle imprese con almeno 10 dipendenti.</li>
+        <li>Esamina la tabella <code>Corrispondenze California Proposition 65 nel testo inviato</code> per verificare gli endpoint tossicologici e i livelli di sicurezza.</li>
+        <li>Verifica i valori limite di esposizione <code>NSRL</code> o <code>MADL</code>, oppure la voce <code>Nessun livello Safe Harbor stabilito dall'OEHHA</code>.</li>
+        <li>Fai clic su <code>Fonte primaria OEHHA →</code> per consultare i documenti originali dell'ente californiano.</li>
+        </ol>
+        <h3>Consultare e filtrare la banca dati delle sostanze di riferimento</h3>
+        <ol>
+        <li>Scorri fino alla tabella <code>Banca dati di riferimento per lo screening (15 sostanze / classi)</code> accompagnata dall'indicazione <code>Dati ricavati direttamente da FDA Cosmetics (MoCRA) e OEHHA Title 27 CCR</code>.</li>
+        <li>Filtra le sostanze selezionando <code>Tutte le giurisdizioni</code>, <code>MoCRA federale</code> oppure <code>Prop 65 California</code>.</li>
+        <li>Digita una o più parole chiave nella casella <code>Filtra le sostanze per nome, CAS o CI...</code>.</li>
+        <li>Controlla quante voci risultano visibili tramite la dicitura <code>Visualizzazione di {count} su {total}</code>.</li>
+        </ol>
+        </div>
+        <div class="doc-section">
+        <h2>Cosa non fa</h2>
+        <p>Per definire con esattezza il proprio campo d'azione, questo strumento non svolge le seguenti attività:</p>
+        <ul>
+        <li>Calcolare il rilascio di nichel da aghi per piercing, gioielleria o grip da tatuaggio. Utilizza il Nickel Release Calculator su https://poliinternational.com/nickel-release-calculator/</li>
+        <li>Verificare certificati di colata metallurgica o standard legati a leghe da impianto come ASTM F136 o ISO 5832-3. Utilizza il Material Certification Checker su https://poliinternational.com/material-certification-checker/</li>
+        <li>Decodificare l'intero elenco globale degli ingredienti cosmetici al di fuori delle 15 sostanze mappate. Utilizza il Tattoo Ink Ingredient Decoder su https://poliinternational.com/ink-ingredient-decoder/</li>
+        <li>Analizzare i pigmenti secondo l'allegato XVII voce 75 del regolamento europeo REACH o l'elenco delle sostanze SVHC. Utilizza l'EU REACH SVHC Pigment Checker su https://poliinternational.com/reach-svhc-checker/</li>
+        <li>Rilasciare alcuna approvazione FDA, dal momento che la FDA non approva additivi coloranti per l'iniezione intradermica.</li>
+        <li>Inviare la registrazione degli stabilimenti o le liste degli ingredienti sul portale FDA Cosmetics Direct.</li>
+        <li>Condurre test chimici di laboratorio su campioni fisici di flaconi di inchiostro.</li>
+        <li>Fornire consulenza legale personalizzata o attestazioni di conformità formale.</li>
+        </ul>
+        </div>
+        <div class="doc-section">
+        <h2>Dove risiedono i tuoi dati</h2>
+        <p>Tutti i processi avvengono esclusivamente all'interno del browser sul tuo dispositivo. Nessun dato viene trasmesso a server remoti né a servizi di statistica o tracciamento. Il testo incollato rimane unicamente nella memoria volatile dell'applicazione. Facendo clic su <code>Cancella testo</code>, ricaricando la pagina o chiudendo la scheda del browser, tutti i dati inseriti vengono rimossi in modo definitivo. La stampa genera il documento inviandolo direttamente al gestore di stampa del tuo sistema operativo senza salvare copie locali o remote.</p>
+        </div>
+        <div class="doc-section">
+        <h2>Stampa ed esportazione</h2>
+        <p>Puoi creare documentazione cartacea o generare file PDF per i registri interni di conformità dello studio:</p>
+        <ol>
+        <li>Fai clic su <code>Stampa rapporto</code> nella testata o su <code>Stampa rapporto di screening</code> nel menu di navigazione.</li>
+        <li>Il sistema di stampa formatta il fascicolo avvalendosi di un foglio di stile dedicato:</li>
+        </ol>
+        <ul>
+        <li>I menu di navigazione, i comandi di commutazione del tema e i pulsanti a schermo vengono omessi.</li>
+        <li>Viene applicata una formattazione monocromatica ad alto contrasto per favorire la leggibilità su carta.</li>
+        <li>Il foglio include intestazione ufficiale, data e ora di elaborazione, volume dei caratteri analizzati, riepiloghi numerici, tabelle degli ingredienti riconosciuti e citazioni delle leggi vigenti.</li>
+        </ul>
+        <ol>
+        <li>Seleziona la stampante collegata oppure scegli l'opzione "Salva come PDF" nella finestra di dialogo del sistema per conservare la documentazione.</li>
+        </ol>
+        </div>
+        <div class="doc-section">
+        <h2>Domande e risposte</h2>
+        <h3>La FDA ha approvato inchiostri per tatuaggi destinati all'iniezione cutanea?</h3>
+        <p>La FDA non ha approvato alcun additivo colorante né alcuna miscela finita per l'iniezione nello strato dermico della pelle. In base alla legge federale FD&amp;C Act modificata dal MoCRA, gli inchiostri per tatuaggi sono inquadrati come prodotti cosmetici e sono soggetti a controlli di sicurezza post-vendita, obblighi di etichettatura e divieto di adulterazione, senza un passaggio di autorizzazione preventiva. Gli inchiostri che presentano contaminanti nocivi o coloranti non ammessi sono perseguibili dalle autorità federali.</p>
+        <h3>Che cos'è la legge MoCRA e in che modo interessa gli studi di tatuaggio?</h3>
+        <p>La legge MoCRA (Public Law 117-328) ha ampliato in maniera rilevante i poteri di vigilanza federale della FDA sui prodotti cosmetici, includendo gli inchiostri da tatuaggio. Essa prevede l'obbligo di registrazione delle strutture di produzione (§ 607), l'elenco ufficiale dei prodotti commercializzati (§ 607), la segnalazione entro 15 giorni lavorativi degli eventi avversi gravi (§ 605) e l'autorità di ordinare il richiamo vincolante dei prodotti a rischio (§ 611). Gli studi che miscelano, diluiscono o confezionano i propri inchiostri possono essere tenuti a registrarsi come stabilimenti di fabbricazione cosmetica; gli esercizi di tipo salone sono esentati, a meno che non producano o lavorino cosmetici in sede.</p>
+        <h3>Quando è obbligatorio l'avviso della Proposition 65 per un inchiostro in California?</h3>
+        <p>In base al California Health &amp; Safety Code § 25249.5 e segg., le imprese con 10 o più dipendenti devono apporre un avviso chiaro prima di esporre chiunque a sostanze registrate come cancerogene o tossiche per la riproduzione. L'obbligo sussiste a meno che non si dimostri scientificamente che l'esposizione sia inferiore ai limiti di sicurezza NSRL o MADL pubblicati. Se non esiste un valore Safe Harbor, l'impresa deve fornire l'avviso oppure dimostrare con una propria valutazione dell'esposizione che l'avviso non è necessario.</p>
+        <h3>Perché il nerofumo è iscritto nella Proposition 65 della California?</h3>
+        <p>Il nerofumo (Carbon Black, CAS 1333-86-4) è stato inserito negli elenchi della Proposition 65 nel 2003 con riferimento specifico alle particelle aerodisperse, non legate e di dimensioni respirabili. Nelle formulazioni liquide pronte all'uso le particelle sono legate al veicolante liquido, ma la movimentazione di pigmenti in polvere secca o l'eventuale nebulizzazione può liberare particelle respirabili soggette a obbligo di avvertenza. L'OEHHA non ha fissato una soglia NSRL Safe Harbor per questa sostanza, rendendo necessaria una valutazione scrupolosa dell'esposizione.</p>
+        <h3>Il biossido di titanio negli inchiostri può causare problemi durante la rimozione laser?</h3>
+        <p>Il biossido di titanio (CI 77891, CAS 13463-67-7), ampiamente utilizzato negli inchiostri bianchi e nei colori pastello, figura nella Proposition 65 per le particelle respirabili. Durante le sedute di rimozione con laser impulsati di tipo Q-switched, la radiazione provoca una reazione immediata di riduzione che trasforma il titanio bianco Ti(IV) in una forma scura di Ti(III). Questo fenomeno causa un repentino e spesso irreversibile inscurimento paradosso del pigmento nella pelle. I professionisti devono informare preventivamente la clientela di tale reazione prima di trattare colori chiari.</p>
+        <h3>La p-fenilendiammina (PPD) è consentita negli inchiostri per tatuaggi secondo la legge federale?</h3>
+        <p>La p-fenilendiammina (PPD, CAS 106-50-3) non è un additivo colorante approvato per l'uso sulla pelle. La FDA avverte che l'"henné nero" contenente PPD può causare gravi reazioni cutanee, e un cosmetico che contiene un additivo colorante non approvato è adulterato ai sensi della Sezione 601 del FD&amp;C Act. La PPD è consentita nelle tinture per capelli derivate da catrame di carbone che riportano l'avvertenza obbligatoria.</p>
+        </div>
+        <div class="doc-section">
+        <h2>Limiti dello strumento</h2>
+        <p>Questo strumento effettua una scansione testuale automatizzata su una selezione controllata di 15 sostanze e classi chimiche. Esso non è in grado di verificare la composizione fisica contenuta nei flaconi, la presenza di contaminanti non dichiarati, tracce di metalli pesanti, la sterilità biologica né l'effettiva avvenuta registrazione del fabbricante presso i database della FDA. La conformità legale definitiva può essere attestata unicamente dagli enti ufficiali preposti (tra cui FDA e OEHHA), da laboratori di analisi accreditati e da consulenti legali abilitati.</p>
+        </div>
+        <div class="doc-section">
+            <h2>Usare lo strumento</h2>
+            <p><a href="https://poliinternational.com/us-tattoo-ink-checker/" target="_top">Apri US Tattoo Ink Regulation Checker: guida utente</a>. Tutto funziona nel browser; nulla di cio che inserisci viene inviato altrove.</p>
+        </div>
+    </div>
+</body>
+</html>
