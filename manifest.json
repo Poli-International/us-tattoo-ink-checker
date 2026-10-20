@@ -1,0 +1,10 @@
+{
+  "name": "US Tattoo Ink Checker",
+  "short_name": "Ink Checker",
+  "description": "Professional US tattoo ink safety screening tool. Check pigments, CI numbers, and CAS numbers against MoCRA requirements, FDA color additive status, California Proposition 65, and EU REACH divergence.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0693e3"
+}
